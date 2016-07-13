@@ -1,0 +1,26 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Result Movie</title>
+</head>
+<body>
+    <div id="forResult" class="bs-component" ng-controller="resultMovieController">
+        <form class="well form-search" id="formResult">
+            <fieldset>
+                <legend>Result for Search Movie</legend>
+            </fieldset>
+        </form>
+        <ul>
+            <li> <h2>Title: {{result().name}}</h2></li>
+            <li><h3>Release Date: {{result().release}}</h3></li>
+            <li><h3>Length: {{result().length}}</h3></li>
+            <li><h3>Description: {{result().description}}</h3></li>
+            <li><h3>IMDb Rating: {{result().rating}}</h3></li>
+        </ul>
+        <a ui-sref="/search-movie" class="btn-sm btn-primary" style="margin-left:20px;">
+            <span class="glyphicon glyphicon-circle-arrow-left">Back to Search Page</span>
+        </a>
+    </div>              
+</body>
+</html>

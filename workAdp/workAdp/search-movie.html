@@ -1,0 +1,32 @@
+﻿<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Search Movie</title>
+</head>
+<body>
+    <div class="bs-component" ng-controller="searchMovieController">
+        <form class="well form-search">
+            <fieldset>
+                <legend>Search Movie</legend>
+            </fieldset>
+            <div>
+                <div class="ui-widget">
+                    <label class="control-label" for="movie-name">Movie Name : </label>
+                    <input type="text" id="movie-name" class="input-small" style="margin-left: 10px;" placeholder="Please write movie name" ng-model="searchMovie">
+                    <a ui-sref="/result-movie" class="btn-sm btn-primary" style="margin-left: 10px;" ng-click="searchMovieF(searchMovie)">
+                        <span class="glyphicon glyphicon-search"> Search</span>
+                    </a>
+                </div>
+            </div>
+        </form>
+        <ul>
+            <!--<li> <h2>Title: {{name}}</h2></li>
+            <li><h3>Release Date: {{release}}</h3></li>
+            <li><h3>Length: {{length}}</h3></li>
+            <li><h3>Description: {{description}}</h3></li>
+            <li><h3>IMDb Rating: {{rating}}</h3></li>-->
+        </ul>
+    </div>            
+</body>
+</html>

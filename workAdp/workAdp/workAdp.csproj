@@ -154,7 +154,6 @@
     <Content Include="scripts\jquery-ui-1.11.4.js" />
     <Content Include="scripts\jquery-ui-1.11.4.min.js" />
     <Content Include="welcome.html" />
-    <Content Include="package.json" />
     <None Include=".bin\node.cmd" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>

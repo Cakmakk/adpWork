@@ -29,13 +29,16 @@
                 $scope.api = 'http://www.omdbapi.com/?t=' + $scope.searchMovie + '&y=&plot=short&r=json';
                 $http.get($scope.api).success(function (data) {
                        resultFactory.set({
-                           name: data.Title,
-                           release: data.Released,
-                           length: data.Runtime,
-                           description: data.Plot,
-                           rating: data.imdbRating
+                           name:data.Title || '',
+                           release: data.Released || '',
+                           length: data.Runtime || '',
+                           description: data.Plot || '',
+                           rating: data.imdbRating || ''
                        })
-               });
+                       if (data.Error == "Movie not found!") {
+                           alert("Movie not found !");
+                       }
+                });
             } 
           }
         }

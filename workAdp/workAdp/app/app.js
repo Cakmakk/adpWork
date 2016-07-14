@@ -25,7 +25,7 @@
     app.controller('searchMovieController', function ($scope, $http, resultFactory) {
         $scope.searchMovieF = function (val) {
             if (typeof val !== 'undefined') {
-                console.log(val)
+              //  console.log(val)
             if (val.length > 0) {
                 $scope.api = 'http://www.omdbapi.com/?t=' + $scope.searchMovie + '&y=&plot=short&r=json';
                 $http.get($scope.api).success(function (data) {

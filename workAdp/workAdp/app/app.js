@@ -60,6 +60,6 @@
             details: details,
             set: set
         }
-    });
+    });    
 })(angular);
 

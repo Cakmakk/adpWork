@@ -11,13 +11,15 @@
                 <legend>Result for Search Movie</legend>
             </fieldset>
         </form>
-        <ul>
-            <li> <h2>Title: {{result().name}}</h2></li>
-            <li><h3>Release Date: {{result().release}}</h3></li>
-            <li><h3>Length: {{result().length}}</h3></li>
-            <li><h3>Description: {{result().description}}</h3></li>
-            <li><h3>IMDb Rating: {{result().rating}}</h3></li>
-        </ul>
+        <form style="margin-bottom: 40px;" ng-show="movieFound = true">
+            <ul>
+                <li> <h2>Title: {{result().name}}</h2></li>
+                <li><h3>Release Date: {{result().release}}</h3></li>
+                <li><h3>Length: {{result().length}}</h3></li>
+                <li><h3>Description: {{result().description}}</h3></li>
+                <li><h3>IMDb Rating: {{result().rating}}</h3></li>
+            </ul>
+        </form>
         <a ui-sref="/search-movie" class="btn-sm btn-primary" style="margin-left:20px;">
             <span class="glyphicon glyphicon-circle-arrow-left">Back to Search Page</span>
         </a>

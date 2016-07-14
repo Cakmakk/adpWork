@@ -37,6 +37,7 @@ C:\Users\Sevgi\documents\visual studio 2015\Projects\workAdp\workAdp\bin\Omdb.Ne
 C:\Users\Sevgi\documents\visual studio 2015\Projects\workAdp\workAdp\bin\AutoMapper.xml
 C:\Users\Sevgi\documents\visual studio 2015\Projects\workAdp\workAdp\bin\Newtonsoft.Json.xml
 C:\Users\Sevgi\documents\visual studio 2015\Projects\workAdp\workAdp\obj\Debug\workAdp.csprojResolveAssemblyReference.cache
+C:\Users\Sevgi\Desktop\gitAdp\workAdp\workAdp\bin\AutoMapper.Net4.dll
 C:\Users\Sevgi\Desktop\gitAdp\workAdp\workAdp\bin\ApplicationInsights.config
 C:\Users\Sevgi\Desktop\gitAdp\workAdp\workAdp\bin\roslyn\csc.exe
 C:\Users\Sevgi\Desktop\gitAdp\workAdp\workAdp\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
@@ -50,7 +51,6 @@ C:\Users\Sevgi\Desktop\gitAdp\workAdp\workAdp\bin\roslyn\System.Reflection.Metad
 C:\Users\Sevgi\Desktop\gitAdp\workAdp\workAdp\bin\roslyn\vbc.exe
 C:\Users\Sevgi\Desktop\gitAdp\workAdp\workAdp\bin\roslyn\VBCSCompiler.exe
 C:\Users\Sevgi\Desktop\gitAdp\workAdp\workAdp\bin\roslyn\VBCSCompiler.exe.config
-C:\Users\Sevgi\Desktop\gitAdp\workAdp\workAdp\bin\AutoMapper.Net4.dll
 C:\Users\Sevgi\Desktop\gitAdp\workAdp\workAdp\bin\workAdp.dll.config
 C:\Users\Sevgi\Desktop\gitAdp\workAdp\workAdp\bin\workAdp.dll
 C:\Users\Sevgi\Desktop\gitAdp\workAdp\workAdp\bin\workAdp.pdb
@@ -73,6 +73,6 @@ C:\Users\Sevgi\Desktop\gitAdp\workAdp\workAdp\bin\Microsoft.AI.WindowsServer.xml
 C:\Users\Sevgi\Desktop\gitAdp\workAdp\workAdp\bin\Microsoft.ApplicationInsights.xml
 C:\Users\Sevgi\Desktop\gitAdp\workAdp\workAdp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
 C:\Users\Sevgi\Desktop\gitAdp\workAdp\workAdp\bin\Newtonsoft.Json.xml
-C:\Users\Sevgi\Desktop\gitAdp\workAdp\workAdp\obj\Debug\workAdp.csprojResolveAssemblyReference.cache
 C:\Users\Sevgi\Desktop\gitAdp\workAdp\workAdp\obj\Debug\workAdp.dll
 C:\Users\Sevgi\Desktop\gitAdp\workAdp\workAdp\obj\Debug\workAdp.pdb
+C:\Users\Sevgi\Desktop\gitAdp\workAdp\workAdp\obj\Debug\workAdp.csprojResolveAssemblyReference.cache

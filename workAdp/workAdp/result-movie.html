@@ -11,7 +11,7 @@
                 <legend>Result for Search Movie</legend>
             </fieldset>
         </form>
-        <form style="margin-bottom: 40px;" ng-show="movieFound = true">
+        <form style="margin-bottom: 40px;">
             <ul>
                 <li> <h2>Title: {{result().name}}</h2></li>
                 <li><h3>Release Date: {{result().release}}</h3></li>
@@ -20,9 +20,9 @@
                 <li><h3>IMDb Rating: {{result().rating}}</h3></li>
             </ul>
         </form>
-        <a ui-sref="/search-movie" class="btn-sm btn-primary" style="margin-left:20px;">
+        <button ui-sref="/search-movie" class="btn-sm btn-primary" style="margin-left:20px;">
             <span class="glyphicon glyphicon-circle-arrow-left">Back to Search Page</span>
-        </a>
+        </button>
     </div>              
 </body>
 </html>

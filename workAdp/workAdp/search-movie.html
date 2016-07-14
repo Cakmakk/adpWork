@@ -10,16 +10,16 @@
             <fieldset>
                 <legend>Search Movie</legend>
             </fieldset>
-            <div>
+        </form>
+            <form name="searchForm">
                 <div class="ui-widget">
                     <label class="control-label" for="movie-name">Movie Name : </label>
-                    <input type="text" id="movie-name" class="input-small" style="margin-left: 10px;" placeholder="Please write movie name" ng-model="searchMovie">
-                    <a ui-sref="/result-movie" class="btn-sm btn-primary" style="margin-left: 10px;" ng-click="searchMovieF(searchMovie)">
+                    <input type="text" id="movie-name" class="input-small" style="margin-left: 10px;" placeholder="Please write movie name" ng-model="searchMovie" required>
+                    <button ui-sref="/result-movie" class="btn-sm btn-primary" style="margin-left: 10px;" ng-click="searchMovieF(searchMovie)" ng-disabled="!searchMovie">
                         <span class="glyphicon glyphicon-search"> Search</span>
-                    </a>
+                    </button>
                 </div>
-            </div>
-        </form>
+            </form>
         <ul>
             <!--<li> <h2>Title: {{name}}</h2></li>
             <li><h3>Release Date: {{release}}</h3></li>

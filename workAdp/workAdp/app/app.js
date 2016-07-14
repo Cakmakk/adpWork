@@ -43,18 +43,13 @@
                        alert("Movie not found !");
                    }
                });
-            } else {
-                alert("Please write somethings !");
-            }
+            } 
           }
         }
        
     });
     app.controller('resultMovieController', function ($scope, resultFactory) {
         $scope.result = function () {
-            if (resultFactory.details.Title == "Movie not found!") {
-                $scope.movieFound = false;
-            }
             return resultFactory.details
         };
     });

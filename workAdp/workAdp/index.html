@@ -7,8 +7,10 @@
     <link rel="shortcut icon" href="data:image/x-icon;," type="image/x-icon">
     <script src="node_modules/angular/angular.min.js"></script> 
     <link href="node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="node_modules/qunitjs/qunit/qunit.css" rel="stylesheet" />
     <script src="node_modules/angular-ui-router/release/angular-ui-router.min.js"></script>
     <script src="node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="node_modules/qunitjs/qunit/qunit.js"></script>
     <script src="app/app.js"></script>
 </head>
 <body ng-app="adphorusWork">
@@ -21,7 +23,7 @@
             </ul>
         </div>
     </div>
-    <div class="container">
+    <div id="qunitIndex" class="container">
         <div class="bs-docs-section">
             <ul>
                 <li><a class="is-active" ui-sref="/">Home</a></li>

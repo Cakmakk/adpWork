@@ -75,3 +75,4 @@ C:\Users\Sevgi\Desktop\gitAdp\workAdp\workAdp\bin\Microsoft.CodeDom.Providers.Do
 C:\Users\Sevgi\Desktop\gitAdp\workAdp\workAdp\bin\Newtonsoft.Json.xml
 C:\Users\Sevgi\Desktop\gitAdp\workAdp\workAdp\obj\Debug\workAdp.dll
 C:\Users\Sevgi\Desktop\gitAdp\workAdp\workAdp\obj\Debug\workAdp.pdb
+C:\Users\Sevgi\Desktop\gitAdp\workAdp\workAdp\obj\Debug\workAdp.csprojResolveAssemblyReference.cache

@@ -5,20 +5,24 @@
 </head>
 <body>
     <div id="qunitSearch" class="bs-component" ng-controller="searchMovieController">
-        <form class="well form-search">
+        <form class="well form-search" name="searchForm">
             <fieldset>
                 <legend>Search Movie</legend>
             </fieldset>
-        </form>
-            <form name="searchForm">
-                <div class="ui-widget">
+             <div>
                     <label class="control-label" for="movie-name">Movie Name : </label>
-                    <input type="text" id="movie-name" class="input-small" style="margin-left: 10px;" placeholder="Please write movie name" ng-model="searchMovie" required>
-                    <button ui-sref="/result-movie" class="btn-sm btn-primary" style="margin-left: 10px;" ng-click="searchMovieF(searchMovie)" ng-disabled="!searchMovie">
-                        <span class="glyphicon glyphicon-search"> Search</span>
-                    </button>
+                 <div>
+                     <input type="text" id="movie-name" class="form-control" style="margin-left: 10px; width: 40%; display:inline" ng-minlength="2" ng-model="searchMovie" required>
+                     <button ui-sref="/result-movie" class="btn-sm btn-primary" style="margin-left: 10px;" ng-click="searchMovieF(searchMovie)" ng-disabled="!searchMovie">
+                         <span class="glyphicon glyphicon-search"> Search</span>
+                     </button>
+                     <div  style="margin-left: 10px; margin-top: 10px; width: inherit" class="alert alert-danger"
+                          ng-show="searchForm.$invalid">
+                         Please write movie name
+                     </div>
+                 </div>
                 </div>
-            </form>
+        </form>
         <ul>
             <!--<li> <h2>Title: {{name}}</h2></li>
             <li><h3>Release Date: {{release}}</h3></li>

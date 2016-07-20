@@ -149,6 +149,7 @@
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <Content Include="qUnit.html" />
     <Content Include="welcome.html" />
     <None Include=".bin\node.cmd" />
     <None Include="Web.Debug.config">

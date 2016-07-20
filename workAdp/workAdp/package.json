@@ -20,6 +20,7 @@
   },
   "homepage": "https://github.com/Cakmakk/adpWork#readme",
   "devDependencies": {
+    "angular-mocks": "^1.5.7",
     "qunitjs": "^2.0.0"
   }
 }

@@ -150,6 +150,7 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="qUnit.html" />
+    <Content Include="test\controller\search-movie.controller.js" />
     <Content Include="welcome.html" />
     <None Include=".bin\node.cmd" />
     <None Include="Web.Debug.config">

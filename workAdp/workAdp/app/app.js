@@ -42,6 +42,7 @@
             } 
           }
         }
+        $scope.author = "Sevgi Cakmak";
     });
     app.controller('resultMovieController', function ($scope, resultFactory, $state) {
         $scope.result = resultFactory.details;
